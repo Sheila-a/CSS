@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+        <title>Signup</title>
+    </head>
+
+    <body class='bg-[#F7FDFC] md:px-20 sm:px-10 px-5'>
+        <section class='grid my-8 md:grid-cols-7 gap-10'>
+            <div class='flex flex-col justify-center col-span-3'>
+                <img src="../assets/Logo.png" alt="" class='w-20 md:mb-10 mb-7'>
+                <h3 class='text-3xl mb-5 font-bold'>For Individuals</h3>
+                <p class='text-[#737373]'>Start benefiting from the wellness experience. For companies looking on
+                    increasing productivity, and
+                    improving
+                    organization wellness.</p>
+            </div>
+            <div class='bg-white shadow-2xl p-8 col-span-4 rounded-lg '>
+                <div class='grid md:grid-cols-2 gap-6'>
+                    <div class='flex flex-col'>
+                        <label for="first_name" class='font-semibold mb-1 text-sm'>First Name</label>
+                        <input type="text" id='first_name' autofocus
+                            class='border-[1px] text-[#737373] border-[#F0F0F0] text-sm rounded-[4px] p-3 py-2 focus:ring-2 ring-[#f2fafa] focus:border-[#2fc4b7] outline-none'>
+                    </div>
+                    <div class='flex flex-col'>
+                        <label for="last_name" class='font-semibold mb-1 text-sm'>Last Name</label>
+                        <input type="text" id='last_name'
+                            class='border-[1px] text-[#737373] border-[#F0F0F0] text-sm rounded-[4px] p-3 py-2 focus:ring-2 ring-[#f2fafa] focus:border-[#2fc4b7] outline-none'>
+                    </div>
+                    <div class='flex flex-col'>
+                        <label for="gender" class='font-semibold mb-1 text-sm'>Gender</label>
+                        <select name="" id="gender"
+                            class='border-[1px] border-[#F0F0F0] text-[#737373] text-sm rounded-[4px] p-3 py-2 focus:ring-2 ring-[#f2fafa] focus:border-[#2fc4b7] outline-none'>
+                            <option value="">Select here</option>
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                        </select>
+
+                    </div>
+                    <div class='flex flex-col'>
+                        <label for="dob" class='font-semibold mb-1 text-sm'>Date of Birth</label>
+                        <input type="date" id='dob' placeholder='Select here'
+                            class='border-[1px] text-[#737373] border-[#F0F0F0] text-sm rounded-[4px] p-3 py-2 focus:ring-2 ring-[#f2fafa] focus:border-[#2fc4b7] outline-none'>
+                    </div>
+                    <div class='flex flex-col'>
+                        <label for="weight" class='font-semibold mb-1 text-sm'>Weight (KG)</label>
+                        <input type="number" id='weight' placeholder='Enter Weight'
+                            class='border-[1px] text-[#737373] border-[#F0F0F0] text-sm rounded-[4px] p-3 py-2 focus:ring-2 ring-[#f2fafa] focus:border-[#2fc4b7] outline-none'>
+                    </div>
+                    <div class='flex flex-col'>
+                        <label for="height" class='font-semibold mb-1 text-sm'>Height (CM)</label>
+                        <input type="text" id='height' placeholder='Enter height here..'
+                            class='border-[1px] text-[#737373] border-[#F0F0F0] text-sm rounded-[4px] p-3 py-2 focus:ring-2 ring-[#f2fafa] focus:border-[#2fc4b7] outline-none'>
+                    </div>
+                </div>
+                <div class='flex flex-col mt-6'>
+                    <label for="activity" class='font-semibold mb-1 text-sm'>Activity Level</label>
+                    <select name="" id="activity"
+                        class='border-[1px] border-[#F0F0F0] text-[#737373] text-sm rounded-[4px] p-3 py-2 focus:ring-2 ring-[#f2fafa] focus:border-[#2fc4b7] outline-none'>
+                        <option value="">Select here</option>
+                        <option value="">Level 1</option>
+                        <option value="">Level 2</option>
+                    </select>
+
+                </div>
+                <div class='flex flex-col mt-6'>
+                    <label for="password" class='font-semibold mb-1 text-sm'>Password</label>
+                    <input type="password" id='password'
+                        class='border-[1px] text-[#737373] border-[#F0F0F0] text-sm rounded-[4px] p-3 py-2 focus:ring-2 ring-[#f2fafa] focus:border-[#2fc4b7] outline-none'>
+
+                </div>
+                <button
+                    class="mt-6 bg-[#2EC4B6] w-full text-white py-3 font-semibold cursor-pointer shadow-md hover:bg-[#21978B] hover:shadow-xl">Register</button>
+                <p class='text-center text-sm font-semibold mt-3'>By clicking Register, you agree to our <a href=''
+                        class='text-[#2fc4b7] underline'>
+                        Terms of Use</a> and our
+                    <a href='' class='text-[#2fc4b7] underline'>
+                        Privacy Policy</a>
+                </p>
+            </div>
+        </section>
+    </body>
+
+</html>
